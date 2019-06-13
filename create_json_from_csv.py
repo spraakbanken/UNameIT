@@ -80,11 +80,18 @@ CSVINFO['platser-lantmateriet'] = [
         'kategorikod': INT(2),
     }),
 ]
+CSVINFO['svenskaplatser'] = [
+    ('gatunamn', 'automatic/Svenskaplatser/streets.csv', {
+        'namn': STR(1),
+        'ort': STR(0),
+    }),
+]
 
 SKIPNAMES = {
     'bolagsverket':         ['FIRMA'],
     'platser-lantmateriet': ['DISTRNAMN', 'TEXT'],
     'personnamn-scb':       ['Förnamn', 'Efternamn', 'Tilltalsnamn'],
+    'svenskaplatser':       [],
 }
 
 

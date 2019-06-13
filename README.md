@@ -4,6 +4,15 @@
 
 This repo contains several (open) databases containing information about names (e.g., person names, geographical names, company names, etc).
 
+### Large file storage
+
+This repo uses [Git LFS](https://git-lfs.github.com/) to store large files. To get the files and run the scripts correctly, install Git LFS and then do this inside your clone of the repo:
+
+```sh
+git lfs install
+git lfs pull
+```
+
 ### No sensitive information!
 
 Since this repo is not hosted at GU, it is important that we do not store any sensitive information here. Sensitive information are, e.g., any information that can be connected to an individual person.
