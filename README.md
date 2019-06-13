@@ -4,13 +4,16 @@
 
 This repo contains several (open) databases containing information about names (e.g., person names, geographical names, company names, etc).
 
+### No sensitive information!
+
+Since this repo is not hosted at GU, it is important that we do not store any sensitive information here. Sensitive information are, e.g., any information that can be connected to an individual person.
+
 ### Source files
 
 All original database sources should reside in the `src` directory. This is divided into:
 
 - `automatic`: here are databases that are downloaded from other places, or automatically created in some way
 - `manual`: here are databases that we build and update manually
-
 
 Every data source should have a separate directory in `src/automatic` or `src/manual`, and there must be a readme file detailing how the sources have been obtained and what scripts have been used.
 
